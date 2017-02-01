@@ -12,7 +12,9 @@ const client = new recastai.Client('a7a706351177d232d7c1efca6cb6e9d6')
 
 /* Server setup */
 const app = express()
-const port = 5000
+var port = process.env.PORT || 8080;
+
+
 
 app.use(bodyParser.json())
 app.post('/', (req, res) => myBot.listen(req, res))
