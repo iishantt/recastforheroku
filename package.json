@@ -8,31 +8,6 @@
     "express": "^4.14.1",
     "recastai-botconnector": "^1.0.1",
     "recastai": "^2.3.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "node server",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/geekvaibhav/recastforheroku.git"
-  },
-  "keywords": [
-    "Vaibhav",
-    "|",
-    "Recast",
-    "|",
-    "Heroku"
-  ],
-  "author": "VaibhavS",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/geekvaibhav/recastforheroku/issues"
-  },
-  "homepage": "https://github.com/geekvaibhav/recastforheroku#readme"
-},
-"dependencies": {
     "babel-cli": "^6.22.2",
     "babel-plugin-transform-runtime": "^6.22.0",
     "babel-preset-es2015": "^6.22.0",
@@ -71,6 +46,28 @@
     "mocha": "^3.1.1",
     "mock-require": "^1.3.0",
     "nock": "^8.1.0",
-    "nodemon": "^1.11.0"
-  }
+    "nodemon": "^1.11.0"},
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekvaibhav/recastforheroku.git"
+  },
+  "keywords": [
+    "Vaibhav",
+    "|",
+    "Recast",
+    "|",
+    "Heroku"
+  ],
+  "author": "VaibhavS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geekvaibhav/recastforheroku/issues"
+  },
+  "homepage": "https://github.com/geekvaibhav/recastforheroku#readme"
+},
+
 }
