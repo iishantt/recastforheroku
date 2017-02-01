@@ -1,0 +1,34 @@
+{
+  "name": "recast_bot_for_heroku",
+  "version": "0.0.1",
+  "description": "A dev Gear for Recast to deploy on Heroku",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "recastai-botconnector": "^1.0.1",
+    "recastai": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekvaibhav/recastforheroku.git"
+  },
+  "keywords": [
+    "Vaibhav",
+    "|",
+    "Recast",
+    "|",
+    "Heroku"
+  ],
+  "author": "VaibhavS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geekvaibhav/recastforheroku/issues"
+  },
+  "homepage": "https://github.com/geekvaibhav/recastforheroku#readme"
+}
